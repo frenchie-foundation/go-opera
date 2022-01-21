@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/Fantom-foundation/go-opera/utils/cser"
+	"github.com/frenchie-foundation/go-opera/utils/cser"
 )
 
 var (

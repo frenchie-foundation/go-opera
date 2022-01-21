@@ -7,7 +7,7 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/hash"
 	"github.com/Fantom-foundation/lachesis-base/inter/idx"
 
-	"github.com/Fantom-foundation/go-opera/utils/concurrent"
+	"github.com/frenchie-foundation/go-opera/utils/concurrent"
 )
 
 type sortedLastEvent []byte

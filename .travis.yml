@@ -3,7 +3,7 @@ language: go
 go:
   - 1.14.x
 
-go_import_path: github.com/Fantom-foundation/go-opera
+go_import_path: github.com/frenchie-foundation/go-opera
 
 cache:
   directories:

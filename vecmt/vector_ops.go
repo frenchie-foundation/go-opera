@@ -6,7 +6,7 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/vecengine"
 	"github.com/Fantom-foundation/lachesis-base/vecfc"
 
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/inter"
 )
 
 type CreationTimer interface {

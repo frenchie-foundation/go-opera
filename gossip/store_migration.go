@@ -8,9 +8,9 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/kvdb"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils/concurrent"
-	"github.com/Fantom-foundation/go-opera/utils/migration"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/utils/concurrent"
+	"github.com/frenchie-foundation/go-opera/utils/migration"
 )
 
 func isEmptyDB(db kvdb.Iteratee) bool {

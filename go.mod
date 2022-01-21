@@ -1,4 +1,4 @@
-module github.com/Fantom-foundation/go-opera
+module github.com/frenchie-foundation/go-opera
 
 go 1.14
 
@@ -43,6 +43,8 @@ require (
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
 
-replace github.com/ethereum/go-ethereum => github.com/Fantom-foundation/go-ethereum v1.9.7-0.20210827160629-07563551b4c0
+replace github.com/ethereum/go-ethereum => github.com/frenchie-foundation/go-ethereum v1.9.7-0.20210827160629-07563551b4c0
 
 replace github.com/dvyukov/go-fuzz => github.com/guzenok/go-fuzz v0.0.0-20210103140116-f9104dfb626f
+
+replace github.com/Fantom-foundation/lachesis-base => github.com/frenchie-foundation/lachesis-base v0.0.0-20210721130657-54ad3c8a18c1

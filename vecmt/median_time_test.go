@@ -13,7 +13,7 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/inter/pos"
 	"github.com/Fantom-foundation/lachesis-base/kvdb/memorydb"
 
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/inter"
 )
 
 func TestMedianTimeOnIndex(t *testing.T) {

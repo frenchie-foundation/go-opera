@@ -24,9 +24,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/opera/genesis"
 )
 
 // ApplyGenesis writes or updates the genesis block in db.

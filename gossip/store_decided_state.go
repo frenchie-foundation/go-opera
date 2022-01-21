@@ -5,8 +5,8 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/inter/pos"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
-	"github.com/Fantom-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/gossip/blockproc"
+	"github.com/frenchie-foundation/go-opera/opera"
 )
 
 const sKey = "s"

@@ -10,8 +10,8 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/hash"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/Fantom-foundation/go-opera/utils/iodb"
-	"github.com/Fantom-foundation/go-opera/utils/ioread"
+	"github.com/frenchie-foundation/go-opera/utils/iodb"
+	"github.com/frenchie-foundation/go-opera/utils/ioread"
 )
 
 var (

@@ -10,12 +10,12 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/inter/dag"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-opera/eventcheck"
-	"github.com/Fantom-foundation/go-opera/eventcheck/epochcheck"
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils/concurrent"
+	"github.com/frenchie-foundation/go-opera/eventcheck"
+	"github.com/frenchie-foundation/go-opera/eventcheck/epochcheck"
+	"github.com/frenchie-foundation/go-opera/gossip/blockproc"
+	"github.com/frenchie-foundation/go-opera/gossip/emitter"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/utils/concurrent"
 )
 
 var (

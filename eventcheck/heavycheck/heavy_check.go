@@ -14,8 +14,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/trie"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/inter/validatorpk"
 )
 
 var (

@@ -7,9 +7,9 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/inter/idx"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/gpos"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/opera/genesis"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/gpos"
 )
 
 type Genesis struct {

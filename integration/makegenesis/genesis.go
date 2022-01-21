@@ -12,17 +12,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driver"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driverauth"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/evmwriter"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/gpos"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/netinit"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/sfc"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/inter/validatorpk"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/opera/genesis"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/driver"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/driverauth"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/evmwriter"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/gpos"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/netinit"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/sfc"
+	"github.com/frenchie-foundation/go-opera/opera/genesisstore"
 )
 
 var (

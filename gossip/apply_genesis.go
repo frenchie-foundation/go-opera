@@ -10,14 +10,14 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
-	"github.com/Fantom-foundation/go-opera/gossip/evmstore"
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/inter/drivertype"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesis"
+	"github.com/frenchie-foundation/go-opera/evmcore"
+	"github.com/frenchie-foundation/go-opera/gossip/blockproc"
+	"github.com/frenchie-foundation/go-opera/gossip/evmstore"
+	"github.com/frenchie-foundation/go-opera/gossip/sfcapi"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/inter/drivertype"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/opera/genesis"
 )
 
 // ApplyGenesis writes initial state.

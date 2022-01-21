@@ -5,7 +5,7 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/inter/idx"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/inter"
 )
 
 func (s *Store) GetGenesisHash() *hash.Hash {

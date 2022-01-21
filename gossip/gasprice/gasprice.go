@@ -24,8 +24,8 @@ import (
 
 	"github.com/Fantom-foundation/lachesis-base/inter/idx"
 
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/utils/piecefunc"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/utils/piecefunc"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/params"

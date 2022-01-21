@@ -35,17 +35,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fantom-foundation/go-opera/gossip/contract/driver100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/driverauth100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/netinit100"
-	"github.com/Fantom-foundation/go-opera/gossip/contract/sfc100"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driver"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/driverauth"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/evmwriter"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/netinit"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/sfc"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/frenchie-foundation/go-opera/gossip/contract/driver100"
+	"github.com/frenchie-foundation/go-opera/gossip/contract/driverauth100"
+	"github.com/frenchie-foundation/go-opera/gossip/contract/netinit100"
+	"github.com/frenchie-foundation/go-opera/gossip/contract/sfc100"
+	"github.com/frenchie-foundation/go-opera/logger"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/driver"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/driverauth"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/evmwriter"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/netinit"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/sfc"
+	"github.com/frenchie-foundation/go-opera/utils"
 )
 
 func TestSFC(t *testing.T) {

@@ -9,11 +9,11 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip/blockproc"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/utils"
+	"github.com/frenchie-foundation/go-opera/evmcore"
+	"github.com/frenchie-foundation/go-opera/gossip/blockproc"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/utils"
 )
 
 type EVMModule struct{}

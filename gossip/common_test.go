@@ -22,13 +22,13 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/integration/makegenesis"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesis/gpos"
-	"github.com/Fantom-foundation/go-opera/utils"
-	"github.com/Fantom-foundation/go-opera/utils/gsignercache"
+	"github.com/frenchie-foundation/go-opera/evmcore"
+	"github.com/frenchie-foundation/go-opera/integration/makegenesis"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/opera/genesis/gpos"
+	"github.com/frenchie-foundation/go-opera/utils"
+	"github.com/frenchie-foundation/go-opera/utils/gsignercache"
 )
 
 const (

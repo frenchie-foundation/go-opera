@@ -7,8 +7,8 @@ import (
 	base "github.com/Fantom-foundation/lachesis-base/eventcheck/basiccheck"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/evmcore"
+	"github.com/frenchie-foundation/go-opera/inter"
 )
 
 var (

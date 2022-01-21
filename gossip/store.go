@@ -12,10 +12,10 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/utils/wlru"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip/evmstore"
-	"github.com/Fantom-foundation/go-opera/gossip/sfcapi"
-	"github.com/Fantom-foundation/go-opera/logger"
-	"github.com/Fantom-foundation/go-opera/utils/rlpstore"
+	"github.com/frenchie-foundation/go-opera/gossip/evmstore"
+	"github.com/frenchie-foundation/go-opera/gossip/sfcapi"
+	"github.com/frenchie-foundation/go-opera/logger"
+	"github.com/frenchie-foundation/go-opera/utils/rlpstore"
 )
 
 // Store is a node persistent storage working over physical key-value database.

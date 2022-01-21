@@ -24,15 +24,15 @@ import (
 	"github.com/naoina/toml"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/gossip/gasprice"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/integration/makegenesis"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	futils "github.com/Fantom-foundation/go-opera/utils"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/frenchie-foundation/go-opera/evmcore"
+	"github.com/frenchie-foundation/go-opera/gossip"
+	"github.com/frenchie-foundation/go-opera/gossip/gasprice"
+	"github.com/frenchie-foundation/go-opera/integration"
+	"github.com/frenchie-foundation/go-opera/integration/makegenesis"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/opera/genesisstore"
+	futils "github.com/frenchie-foundation/go-opera/utils"
+	"github.com/frenchie-foundation/go-opera/vecmt"
 )
 
 var (

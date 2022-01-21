@@ -16,11 +16,11 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/opera"
-	"github.com/Fantom-foundation/go-opera/opera/genesisstore"
-	"github.com/Fantom-foundation/go-opera/utils/adapters/vecmt2dagidx"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/frenchie-foundation/go-opera/gossip"
+	"github.com/frenchie-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/opera/genesisstore"
+	"github.com/frenchie-foundation/go-opera/utils/adapters/vecmt2dagidx"
+	"github.com/frenchie-foundation/go-opera/vecmt"
 )
 
 // GenesisMismatchError is raised when trying to overwrite an existing

@@ -24,12 +24,12 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/gossip/emitter"
-	"github.com/Fantom-foundation/go-opera/integration"
-	"github.com/Fantom-foundation/go-opera/inter"
-	"github.com/Fantom-foundation/go-opera/utils/iodb"
-	"github.com/Fantom-foundation/go-opera/utils/ioread"
+	"github.com/frenchie-foundation/go-opera/gossip"
+	"github.com/frenchie-foundation/go-opera/gossip/emitter"
+	"github.com/frenchie-foundation/go-opera/integration"
+	"github.com/frenchie-foundation/go-opera/inter"
+	"github.com/frenchie-foundation/go-opera/utils/iodb"
+	"github.com/frenchie-foundation/go-opera/utils/ioread"
 )
 
 type restrictedEvmBatch struct {

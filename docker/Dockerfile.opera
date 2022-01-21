@@ -12,9 +12,9 @@ RUN export GIT_COMMIT=$(git rev-list -1 HEAD) && \
     export GIT_DATE=$(git log -1 --date=short --pretty=format:%ct) && \
     export CGO_ENABLED=1 && \
     go build \
-	-ldflags "-s -w -X github.com/Fantom-foundation/go-opera/cmd/opera/launcher.gitCommit=$GIT_COMMIT -X github.com/Fantom-foundation/go-opera/cmd/opera/launcher.gitDate=$GIT_DATE" \
-	-o /tmp/opera \
-	./cmd/opera
+    -ldflags "-s -w -X github.com/frenchie-foundation/go-opera/cmd/opera/launcher.gitCommit=$GIT_COMMIT -X github.com/frenchie-foundation/go-opera/cmd/opera/launcher.gitDate=$GIT_DATE" \
+    -o /tmp/opera \
+    ./cmd/opera
 
 
 

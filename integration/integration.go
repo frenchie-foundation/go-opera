@@ -10,10 +10,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/Fantom-foundation/go-opera/gossip"
-	"github.com/Fantom-foundation/go-opera/inter/validatorpk"
-	"github.com/Fantom-foundation/go-opera/valkeystore"
-	"github.com/Fantom-foundation/go-opera/vecmt"
+	"github.com/frenchie-foundation/go-opera/gossip"
+	"github.com/frenchie-foundation/go-opera/inter/validatorpk"
+	"github.com/frenchie-foundation/go-opera/valkeystore"
+	"github.com/frenchie-foundation/go-opera/vecmt"
 )
 
 var (

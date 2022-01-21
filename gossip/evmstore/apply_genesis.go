@@ -5,8 +5,8 @@ import (
 	"github.com/Fantom-foundation/lachesis-base/kvdb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/Fantom-foundation/go-opera/evmcore"
-	"github.com/Fantom-foundation/go-opera/opera"
+	"github.com/frenchie-foundation/go-opera/evmcore"
+	"github.com/frenchie-foundation/go-opera/opera"
 )
 
 func (s *Store) applyRawEvmItems(db kvdb.Iteratee) (err error) {
