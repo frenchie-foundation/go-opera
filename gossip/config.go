@@ -184,7 +184,7 @@ func DefaultConfig(scale cachescale.Func) Config {
 		RPCLogsBloom: true,
 
 		RPCGasCap:   25000000,
-		RPCTxFeeCap: 100, // 100 FTM
+		RPCTxFeeCap: 100, // 100 FREN
 	}
 	cfg.Protocol.Processor.EventsBufferLimit.Num = idx.Event(cfg.Protocol.StreamLeecher.Session.ParallelChunksDownload)*cfg.Protocol.StreamLeecher.Session.DefaultChunkSize.Num + softLimitItems
 	cfg.Protocol.Processor.EventsBufferLimit.Size = uint64(cfg.Protocol.StreamLeecher.Session.ParallelChunksDownload)*cfg.Protocol.StreamLeecher.Session.DefaultChunkSize.Size + 8*opt.MiB

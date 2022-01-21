@@ -140,7 +140,7 @@ func TestSFC(t *testing.T) {
 
 			// create new
 			rr := env.ApplyBlock(nextEpoch,
-				env.Contract(admin, utils.ToFtm(0), sfc100.ContractBin),
+				env.Contract(admin, utils.ToFren(0), sfc100.ContractBin),
 			)
 			require.Equal(1, rr.Len())
 			require.Equal(types.ReceiptStatusSuccessful, rr[0].Status)
@@ -172,7 +172,7 @@ func TestSFC(t *testing.T) {
 		// create new
 		anyContractBin := driver100.ContractBin
 		rr := env.ApplyBlock(nextEpoch,
-			env.Contract(admin, utils.ToFtm(0), anyContractBin),
+			env.Contract(admin, utils.ToFren(0), anyContractBin),
 		)
 		require.Equal(1, rr.Len())
 		require.Equal(types.ReceiptStatusSuccessful, rr[0].Status)
@@ -204,7 +204,7 @@ func cicleTransfers(t *testing.T, env *testEnv, count uint64) {
 		for i := range txs {
 			from := (i)%accounts + 1
 			to := (i+1)%accounts + 1
-			txs[i] = env.Transfer(from, to, utils.ToFtm(100))
+			txs[i] = env.Transfer(from, to, utils.ToFren(100))
 		}
 
 		rr := env.ApplyBlock(sameEpoch, txs...)

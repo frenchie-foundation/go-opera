@@ -35,7 +35,7 @@ func TestConsensusCallback(t *testing.T) {
 		for i := range txs {
 			from := (i)%accounts + 1
 			to := (i+1)%accounts + 1
-			txs[i] = env.Transfer(from, to, utils.ToFtm(100))
+			txs[i] = env.Transfer(from, to, utils.ToFren(100))
 		}
 		tm := sameEpoch
 		if n%10 == 0 {
